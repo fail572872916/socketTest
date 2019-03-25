@@ -51,7 +51,7 @@ namespace socket_server
         private void monitor(object o)
         {
             Socket listening = o as Socket;
-            //  _asynReceiveDate = receiveDate;
+         
             while (true)
             {
                 try
